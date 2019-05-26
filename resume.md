@@ -7,5 +7,5 @@ share: false
 
 ---
 
-* Longer, academic resume
+<!--* Longer, academic resume-->
 * [One-page, industry-oriented resume]({{ site.url }}/data/tkorbak.pdf)
