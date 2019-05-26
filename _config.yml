@@ -1,0 +1,56 @@
+# Site wide configuration
+
+title: Tomek Korbak
+locale: en_US
+url: http://tomekkorbak.github.io
+
+# Jekyll configuration
+
+permalink:   /:categories/:year/:month/:day/:title/
+markdown:    kramdown
+highlighter: rouge
+#paginate: 10
+#paginate_path: "_site/index/blog/page:num/"
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+  - jekyll-gist
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+# Default extensions
+post_ext: md
+page_ext: md
+
+# Found in _templates/
+post_layout: post
+page_layout: page
+
+# Format titles with titlecase?
+titlecase: true
+
+# Site owner
+owner:
+  name: Tomek Korbak
+  avatar: fotka.jpg
+  bio: machine learning, cognitive science, philosophy
+  email: tomasz.korbak@gmail.com
+#  disqus-shortname:
+#  google:
+#    analytics:
+#    verify:
+#    ad-client:
+#    ad-slot:
+  github: tomekkorbak
+  google_scholar: YQ5rrk4AAAAJ
+  linkedin: tomaszkorbak
+  twitter: tomekkorbak
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
