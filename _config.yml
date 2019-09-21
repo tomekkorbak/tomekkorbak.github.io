@@ -18,7 +18,7 @@ gems:
   - jekyll-sitemap
   - jekyll-gist
 
-kramdown:
+kramdown:e
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
