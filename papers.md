@@ -8,7 +8,7 @@ comments: false
 
 ## Work in progress
 
-1. Korbak, T., Zubek, J., Kuciński, Ł., Miłoś, P. & Rączaszek-Leonardi, J. (2019). [Developmentally motivated emergence of compositional communication via template transfer]({{ site.url }}/data/data/Emergent_compositional_communication.pdf). Submitted to NeurIPS 2019 workshop Emergent Communication: Towards Natural Language.
+1. Korbak, T., Zubek, J., Kuciński, Ł., Miłoś, P. & Rączaszek-Leonardi, J. (2019). [Developmentally motivated emergence of compositional communication via template transfer]({{ site.url }}/data/Emergent_compositional_communication.pdf). Submitted to NeurIPS 2019 workshop Emergent Communication: Towards Natural Language.
 
 ## Journal papers
 
