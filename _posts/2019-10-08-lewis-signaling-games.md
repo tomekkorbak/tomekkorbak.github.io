@@ -3,6 +3,10 @@ layout: post
 title: Introduction to Lewis signaling games with Python
 share: false
 tags: [Lewis signaling games, s-vector semantics, meaning, Brian Skyrms, emergent communication, computational linguistics, cognitive science, game theory]
+header:
+  image: /images/sender.gif
+  og_image: /images/sender.gif
+
 ---
 
 What does it mean for a message to mean? In this blog post, I provide an accessible introduction to one formal framework developed for addressing this question: Lewis signaling games. A Lewis signaling game demands a sender and a receiver to invent a communication protocol so that the receiver can act based on information only available to the sender and maximize reward for both of them. A non-trivial semantics (a formal theory of meaning) can be formulated in terms of Lewis signaling games and the whole signaling games framework is well-suited to tackle research problems in cognitive science and artificial intelligence (among others).
