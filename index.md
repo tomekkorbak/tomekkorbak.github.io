@@ -13,3 +13,6 @@ I’m also collaborating with Human Interactivity and Language Lab at the Facult
 I studied cognitive science, philosophy and physics at the University of Warsaw within an interdepartmental individual course of studies (MISH). I’m currently finishing my master’s degree in cognitive science. I'm a fellow of [Collegium Invisibile](https://en.wikipedia.org/wiki/Collegium_Invisibile) and a recipient of the Minister of Science and Higher Education scholarship for exceptional students in 2016.
 
 Apart from academia, I also work as a machine learning engineer at [Sigmoidal](http://sigmoidal.io/), focusing on natural language processing.
+
+#### News
+Our paper, [Developmentally motivated emergence of compositional communication via template transfer]({{ site.url }}/data/Emergent_compositional_communication.pdf), was accepted to NeurIPS 2019 workshop [Emergent Communication: Towards Natural Language](https://sites.google.com/view/emecom2019).

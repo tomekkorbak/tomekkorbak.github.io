@@ -21,6 +21,7 @@ comments: false
 2. Korzeniowski, R., Rolczyński, R., Sadownik, P., Korbak, T. & Możejko, M. (2019). [Exploiting Unsupervised Pre-training and Automated Feature Engineering for Low-resource Hate Speech Detection in Polish](https://arxiv.org/abs/1906.09325). *Proceedings of the PolEval 2019 Workshop*.
 3. Korbak, T. & Żak, P. (2017). [Fine-tuning Tree-LSTM for phrase-level sentiment classification on a Polish dependency treebank](https://arxiv.org/abs/1711.01985). In Z. Vetulani and P. Paroubek (eds.) Proceedings of the 8th Language & Technology Conference.
 
-# Conference talks and posters
-1. Korbak, T. (2018). [Evaluating the scalability of deep active inference]({{ site.url }}/data/Poster2018.pdf). 7th Peripatetic Conference on Modeling Cognitive Systems. 
-2. Korbak, T. (2017). [Free energy principle as a model of biological and cognitive self-organization]({{ site.url }}/data/Free_Energy_Principle_as_a_model_of_biol.pdf). 6th Peripatetic Conference on Modeling Cognitive Systems.
+## Conference talks and posters
+1. Korbak, T. (2019). [Emergent compositional communication in generalized signaling games]({{ site.url }}/data/peri2019.pdf). 8th Peripatetic Conference on Modeling Cognitive Systems. 
+2. Korbak, T. (2018). [Evaluating the scalability of deep active inference]({{ site.url }}/data/Poster2018.pdf). 7th Peripatetic Conference on Modeling Cognitive Systems. 
+3. Korbak, T. (2017). [Free energy principle as a model of biological and cognitive self-organization]({{ site.url }}/data/Free_Energy_Principle_as_a_model_of_biol.pdf). 6th Peripatetic Conference on Modeling Cognitive Systems.
