@@ -5,7 +5,7 @@ share: false
 tags: [neurips, NeurIPS 2019, highlights, compositionality, fairness]
 ---
 
-In this blog post, I sketch out a summary of [NeurIPS 2019](https://neurips.cc/Conferences/2019) conference as I experienced it. Obviously, the motifs I highlight are specific to my somewhat unorthodox interests (cognitive (neuro)science and language): I will briefly discuss compositionality, uncovering mechanisms using machine learning models, and some new ideas in representation learning.
+In this blog post, I sketch out a summary of the [NeurIPS 2019](https://neurips.cc/Conferences/2019) conference as I experienced it. Obviously, the motifs I highlight are specific to my somewhat unorthodox interests (cognitive (neuro)science and language): I will briefly discuss compositionality, uncovering mechanisms using machine learning models, and some new ideas in representation learning.
 
 During the conference, I was privileged to present [Developmentally motivated emergence of compositional communication via template transfer](https://arxiv.org/abs/1910.06079) at [Emergent communication](https://sites.google.com/view/emecom2019) workshop.
 
