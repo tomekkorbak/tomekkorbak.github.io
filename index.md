@@ -6,7 +6,7 @@ share: false
 ---
 I’m interested in machine learning, cognitive science and philosophy of science.
 
-Currently, I work on communication in multi-agent systems at Human Interactivity and Language Lab at the Faculty of Psychology, University of Warsaw as part of the project "Developmentally informed agent-based modeling of symbolic constraints in interaction" led by Prof. [Joanna Rączaszek-Leonardi](https://www.researchgate.net/profile/Joanna_Rczaszek-Leonardi2).
+Currently, I work on compositionality and communication in multi-agent systems at [Human Interactivity and Language Lab](http://hill.psych.uw.edu.pl) at the Faculty of Psychology, University of Warsaw as part of the project "Developmentally informed agent-based modeling of symbolic constraints in interaction" led by Prof. [Joanna Rączaszek-Leonardi](https://www.researchgate.net/profile/Joanna_Rczaszek-Leonardi2).
 
 I’m also the principal investigator in the project "Formal and computational models of self-organization in cognitive science" at the Institute of Philosophy and Sociology, Polish Academy of Sciences. The project is supervised by Prof. [Marcin Miłkowski](https://marcinmilkowski.pl) and funded by Polish Ministry of Science and Higher Education. The goal is to develop an integrative account of explanation employing the concept of self-organization, mostly focusing on Bayesian approaches in computational neuroscience, representation learning in deep neural networks and enactive cognitive science.
 
