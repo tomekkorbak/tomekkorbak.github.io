@@ -80,3 +80,5 @@ Interpreting $$z_{sem}$$ and $$z_{syn}$$ as semantic and syntactic is therefore 
 [^elazar_adversarial_2018]: Elazar, Y., & Goldberg, Y. (2018). Adversarial Removal of Demographic Attributes from Text Data. _Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing_.
 [^locatello_fairness_2019]: Locatello, F., Abbati, G., Rainforth, T., Bauer, S., Schölkopf, B., & Bachem, O. (2019). On the Fairness of Disentangled Representations. _Advances in Neural Information Processing Systems_.
 [^russin_compositional_2019]: Russin, J., Jo, J., & O’Reilly, R. C. (2019). Compositional generalization in a deep seq2seq model by separating syntax and semantics. _ArXiv Preprint ArXiv:1904.09708_.
+
+*This blog post was originally published on [Sigmoidal blog](https://sigmoidal.io/where-syntax-ends-and-semantics-begin/).*
