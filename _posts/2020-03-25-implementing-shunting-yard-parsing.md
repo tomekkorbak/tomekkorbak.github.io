@@ -147,7 +147,7 @@ Finally, support for both operator precedence and parentheses can be pushing `(`
 ```
 It works as expected:
 ```
-tree = Tree.build3('(2+3)*2+7*3')  
+tree = Tree.build('(2+3)*2+7*3')  
 assert tree.evaluate() == 31
 ```
 
