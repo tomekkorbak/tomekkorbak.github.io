@@ -2,7 +2,7 @@
 layout: post
 title: Triplet loss and quadruplet loss via tensor masking
 share: false
-tags: [triplet loss, quadruplet loss, hard mining, PyTorch, masking, tensor, representation learning, metric learning]
+tags: [triplet loss, quadruplet loss, hard mining, PyTorch, masking, tensor, representation learning, metric learning, broadcasting, image embeddings]
 ---
 
 In this blog post, I show how to implement triplet loss and quadruplet loss in PyTorch via tensor masking. The idea of triplet loss is to learn meaningful representations of inputs (e.g. images) given a partition of the dataset (e.g. labels) by requiring that the distance from an anchor input to an positive input (belonging to the same class) is minimised and the distance from an anchor input to a negative input (belonging to a different class) is maximized. I'll excuse myself from explaining it in more detail here as there are [some](https://www.coursera.org/lecture/convolutional-neural-networks/triplet-loss-HuUtN) [great](https://omoindrot.github.io/triplet-loss) [sources](https://gombru.github.io/2019/04/03/ranking_loss/) elsewhere. 
@@ -11,7 +11,7 @@ In this blog post, I show how to implement triplet loss and quadruplet loss in P
 
 Both triplet loss and quadruplet loss require an efficient way of selecting triplets and quadruplets of inputs. A popular solution is *batch hard mining*: selecting the hardest triplets (quadruplets) that can be constructed from a batch of inputs. Hardness is measured in terms of (usually Euclidean) distance we are mostly interested in a (anchor, positive) pair with the highest distance between the anchor and the positive and a (anchor, negative) pair with the lowest distance between the anchor and the negative. These hardest pair will end up producing largest gradients. Gradients from easy pairs will be negligible after a few batches of training, so we would prefer to discard them to save computation time.
 
-For the purpose of this blog post, we will assume a simple setup: we use a ResNet-18 architecture to generate embeddings for images from CIFAR10 and use triplet (quadruplet) loss to force them to capture image content. To than end we use class labels: two images from the same class (e.g. planes) are a positive class, two images from different classes (e.g. a cat and a plane) are a negative pair.
+For the purpose of this blog post, we will assume a simple setup: we use a ResNet-18 architecture to generate embeddings for images from CIFAR10 and use triplet (quadruplet) loss to force them to capture image content. To that end we use class labels: two images from the same class (e.g. planes) are a positive class, two images from different classes (e.g. a cat and a plane) are a negative pair.
 
 # Distance matrix and masks
 
