@@ -147,7 +147,7 @@ Variational autoencoders are based on a third formulation of the variational fre
 
 $$F^q_p(x) = \mathbb{E}_{q(x|z) [-\log p(x \vert z)]}  + \text{KL}[q(z \vert x) || p(z)],$$
 
-which is obtained by decomposing the log joint $$\log p(x,z) = \log(x \vert z) -\log p(z)$$ and using $$ -\log p(z)$$ to complete the KL. Consider a simplified implementation of VAE above just for comparison.
+which is obtained by decomposing the log joint $$\log p(x,z) = \log(x \vert z) -\log p(z)$$ and using $$ -\log p(z)$$ to complete the KL. Consider a simplified implementation of VAE below just for comparison.
 
 ```python
 class VAE(torch.nn.Module):
