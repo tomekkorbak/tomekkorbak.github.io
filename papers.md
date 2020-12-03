@@ -6,18 +6,18 @@ share: false
 comments: false
 ---
 
+## Conference and workshop papers
+1. Korbak, T., Zubek, J. & Rączaszek-Leonardi, J. (2020). [Measuring non-trivial compositionality in emergent communication](https://arxiv.org/abs/2010.15058). NeurIPS 2020 workshop on Emergent Communication.
+2. Korbak, T., Zubek, J., Kuciński, Ł., Miłoś, P. & Rączaszek-Leonardi, J. (2019). [Developmentally motivated emergence of compositional communication via template transfer](https://arxiv.org/abs/1910.06079). NeurIPS 2019 workshop on Emergent Communication.
+3. Korzeniowski, R., Rolczyński, R., Sadownik, P., Korbak, T. & Możejko, M. (2019). [Exploiting Unsupervised Pre-training and Automated Feature Engineering for Low-resource Hate Speech Detection in Polish](https://arxiv.org/abs/1906.09325). *Proceedings of the PolEval 2019 Workshop*.
+4. Korbak, T. & Żak, P. (2017). [Fine-tuning Tree-LSTM for phrase-level sentiment classification on a Polish dependency treebank](https://arxiv.org/abs/1711.01985). In Z. Vetulani and P. Paroubek (eds.) Proceedings of the 8th Language & Technology Conference.
+
 
 ## Journal papers
 1. Korbak, T. (2019). [Computational enactivism under the free energy principle](https://link.springer.com/article/10.1007/s11229-019-02243-4). *Synthese*.
 2. Korbak, T. (2019). [Unsupervised learning and the natural origins of content](http://avant.edu.pl/wp-content/uploads/T_Korbak_Unsupervised_Learning.pdf). *Avant*.
 3. Korbak, T. (2015). [Scaffolded minds and the evolution of content in signaling pathways](https://content.sciendo.com/view/journals/slgr/41/1/article-p89.xml). *Studies in Logic, Grammar and Rhetoric*, 41 (54).
 4. Korbak, T. (2015). [Apercepcja transcendentalna w kantowskim modelu epigenezy czystego rozumu](http://cejsh.icm.edu.pl/cejsh/element/bwmeta1.element.pan-pf-yid-2015-iid-3-art-000000000008/c/PFil203-15208-TKorbak.pdf). *Przegląd Filozoficzny – Nowa seria*, 3 (95).
-
-
-## Conference and workshop papers
-1. Korbak, T., Zubek, J., Kuciński, Ł., Miłoś, P. & Rączaszek-Leonardi, J. (2019). [Developmentally motivated emergence of compositional communication via template transfer](https://arxiv.org/abs/1910.06079). Accepted to NeurIPS 2019 workshop Emergent Communication: Towards Natural Language.
-2. Korzeniowski, R., Rolczyński, R., Sadownik, P., Korbak, T. & Możejko, M. (2019). [Exploiting Unsupervised Pre-training and Automated Feature Engineering for Low-resource Hate Speech Detection in Polish](https://arxiv.org/abs/1906.09325). *Proceedings of the PolEval 2019 Workshop*.
-3. Korbak, T. & Żak, P. (2017). [Fine-tuning Tree-LSTM for phrase-level sentiment classification on a Polish dependency treebank](https://arxiv.org/abs/1711.01985). In Z. Vetulani and P. Paroubek (eds.) Proceedings of the 8th Language & Technology Conference.
 
 
 ## Conference talks and posters
