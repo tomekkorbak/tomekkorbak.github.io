@@ -2,7 +2,9 @@
 layout: post
 title: Helmholtz machines and variational autoencoders
 share: false
-tags: [Helmholtz machines, variational autoencoders, VAE, generative models, reparametrization, PyTorch, ELBo, ]
+tags: [Helmholtz machines, variational autoencoders, VAE, generative models, reparametrization, PyTorch, ELBo, free energy]
+image:
+  thumb: helmholtz_1.png
 ---
 
 Helmholtz machines are the predecessors of variational autoencoders (VAEs). They were first proposed by [Dayan et al. in 1995](http://www.gatsby.ucl.ac.uk/~dayan/papers/hm95.pdf) as a probabilistic model of pattern recognition in human visual cortex. In this blog post, I present and discuss a toy PyTorch implementation of Helmholtz machine and an algorithm proposed to train it --- the wake-sleep algorithm. Then, I contrast both with VAEs trained with backpropagation using the reparametrisation trick.
