@@ -7,11 +7,11 @@ image:
   thumb: helmholtz_1.png
 ---
 
-Helmholtz machines are the predecessors of variational autoencoders (VAEs). They were first proposed by [Dayan et al. in 1995](http://www.gatsby.ucl.ac.uk/~dayan/papers/hm95.pdf) as a probabilistic model of pattern recognition in human visual cortex. In this blog post, I present and discuss a toy PyTorch implementation of Helmholtz machine and an algorithm proposed to train it --- the wake-sleep algorithm. Then, I contrast both with VAEs trained with backpropagation using the reparametrisation trick.
+Helmholtz machines are the predecessors of variational autoencoders (VAEs). They were first proposed by [Dayan et al. in 1995](http://www.gatsby.ucl.ac.uk/~dayan/papers/hm95.pdf) as a probabilistic model of pattern recognition in human visual cortex. In this blog post, I discuss a toy PyTorch implementation of Helmholtz machine and an algorithm proposed to train it --- the wake-sleep algorithm. Then, I contrast both with VAEs trained with backpropagation using the reparametrisation trick.
 
 ### Helmholtz machine objective
 
-A Helmholtz machine learns a generative distribution $$p(x, z)$$ over patterns $$x$$ and latents $$z$$ that minimises the generative free energy or model evidence for a pattern $$x$$:
+A Helmholtz machine learns a generative distribution $$p(x, z)$$ over patterns $$x$$ and latents $$z$$ that minimises the generative free energy or negative model evidence for a pattern $$x$$:
 
 $$F_p(x) = \mathbb{E}_{p(z|x)} [-\log p(x, z)] - \mathbb{E}_{p(z|x)} [-\log p(z|x)] = -\log p(x)$$
 
@@ -28,7 +28,7 @@ The wake-sleep algorithm alternates between minimising $$F^p_q(x)$$ with respect
   
 ### Wake phase  
 
-In the wake phase, minimising $$F^q_p(x)$$ with respect to $$p$$ a pattern $$x$$ from the true distribution $$p^*(x)$$ boils down to minimising $$\mathbb{E}_{q(z\vert x)} [-\log p(x,z)]$$. Concretely, we sample a latent state $z$ from $$q(z\vert x)$$, and minimise $$-\log p(x, z)$$ decomposed as $$-\log p(x\vert z) -\log p(x)$$.
+In the wake phase, minimising $$F^q_p(x)$$ with respect to $$p$$ a pattern $$x$$ from the true distribution $$p^*(x)$$ boils down to minimising $$\mathbb{E}_{q(z\vert x)} [-\log p(x,z)]$$. Concretely, we sample a latent state $$z$$ from $$q(z\vert x)$$, and minimise $$-\log p(x, z)$$ decomposed as $$-\log p(x\vert z) -\log p(x)$$.
 
   
 ### Sleep phase
@@ -49,7 +49,7 @@ Crucially, we always optimise the distribution that we're *not* sampling from. T
 
 ### Training a Helmholtz machine for MNIST generation
 
-A Helmholtz machine can be implemented in a few lines of PyTorch. The below implementation differs from the the original algorithm of Dayan et al.  in one respect: there is a single latent variable $$z$$ parametrised by a two-layer feedforward neural network while Dayan et al. treated the activations of both layers as latent variables. Moreover, Dayan et al. optimised $$p$$ and $$q$$ using a local learning rule, the [delta rule](https://en.wikipedia.org/wiki/Delta_rule), while I utilise backpropagation to train both layers end-to-end. This is to be as close to the standard VAE setup as possible.
+A Helmholtz machine can be implemented in a few lines of PyTorch. The below implementation differs from the the original algorithm of Dayan et al.  in one respect: there is a single latent variable $$z$$ parametrised by a two-layer feedforward neural network while Dayan et al. treated the activations of both layers as latent variables. Moreover, Dayan et al. optimised $$p$$ and $$q$$ using a local learning rule, the [delta rule](https://en.wikipedia.org/wiki/Delta_rule), while I utilise backpropagation to train both layers end-to-end (but separately for the encoder and the decoder). This is to be as close to the standard VAE setup as possible.
 
 ```python
 class HelmholtzMachine(torch.nn.Module):
@@ -133,7 +133,7 @@ for _ in range(10):
         machine.sleep()
 ```
 
-I wasn't able to get Helmholtz machines to produce high-quality reconstructions: it tends to capture at most several modes of the distribution but not all of the.
+I wasn't able to get Helmholtz machines to produce high-quality reconstructions: they tend to capture at most several modes of the distribution but not all of them.
 
 
 
@@ -147,7 +147,7 @@ I wasn't able to get Helmholtz machines to produce high-quality reconstructions:
 
 Variational autoencoders are based on a third formulation of the variational free energy objective:
 
-$$F^q_p(x) = \mathbb{E}_{q(x|z) [-\log p(x \vert z)]}  + \text{KL}[q(z \vert x) || p(z)],$$
+$$F^q_p(x) = \mathbb{E}_{q(x|z)} [-\log p(x \vert z)]  + \text{KL}[q(z \vert x) || p(z)],$$
 
 which is obtained by decomposing the log joint $$\log p(x,z) = \log(x \vert z) -\log p(z)$$ and using $$ -\log p(z)$$ to complete the KL. Consider a simplified implementation of VAE below just for comparison.
 
