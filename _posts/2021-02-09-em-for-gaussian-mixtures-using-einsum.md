@@ -4,7 +4,7 @@ title: EM for Gaussian mixtures using einsum
 share: false
 tags: [EM algorithm, expectation maximization, Gaussian mixture models, Gaussian mixtures, GMM, Einstein notation, einsum, numpy, PyTorch, ELBo, wake-sleep algorithm]
 image:
-  thumb:
+  thumb: gmm1.png
 ---
 
 The goal of this blogpost is to present a concise implementation on the Gaussian Mixture Model (GMM) using einsum notation. Along the way, I will also describe the expectation-maximization (EM) algorithm.
