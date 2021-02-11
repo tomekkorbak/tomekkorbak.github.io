@@ -11,7 +11,7 @@ The goal of this blogpost is to present a concise implementation on the Gaussian
 
 ## Einsum
 
-[Einstein notation](https://en.wikipedia.org/wiki/Einstein_notation) is a particular convention of writing tensor operations that is implemented in [NumPy](https://numpy.org/doc/stable/reference/generated/numpy.einsum.html), [PyTorch](https://pytorch.org/docs/stable/generated/torch.einsum.html) and other deep learning frameworks. Its essence lies in indicating summations implicitly: the summation is over indices that are skipped or occur repeatedly. For instance, a batched bilinear transformation $$d = aBc$$, for $$a \in \mathbb{R}^{B \times I}, B \in \mathbb{R}^{B \times I \times J}, c \in \mathbb{E}^{B \times J}$$, can be wrriten as $$d_b = a_i B_{ij} c_j$$ or `np.einsum('bi,bij,bj->b', a, b, c)`. As I will show below, it is particularly useful when dealing with mixtures or multivariate Gaussians, which are effectively 3-dimensional tensors.
+[Einstein notation](https://en.wikipedia.org/wiki/Einstein_notation) is a particular convention of writing tensor operations that is implemented in [NumPy](https://numpy.org/doc/stable/reference/generated/numpy.einsum.html), [PyTorch](https://pytorch.org/docs/stable/generated/torch.einsum.html) and other deep learning frameworks. Its essence lies in indicating summations implicitly: the summation is over indices that are skipped or occur repeatedly. For instance, a batched bilinear transformation $$d = aBc$$, for $$a \in \mathbb{R}^{B \times I}, B \in \mathbb{R}^{B \times I \times J}, c \in \mathbb{E}^{B \times J}$$, can be wrriten as $$d_b = a_i B_{ij} c_j$$ or `np.einsum('bi,bij,bj->b', a, B, c)`. As I will show below, it is particularly useful when dealing with mixtures or multivariate Gaussians, which are effectively 3-dimensional tensors.
 
 Tim Rocktäschel has a [nice introductory post](https://rockt.github.io/2018/04/30/einsum) on einsum in the context of deep learning.
 
@@ -40,7 +40,7 @@ Gaussian mixtures can be posed as latent variable models of the following form:
 
 $$p_\theta(X,Z) = \prod_{n=1}^N \prod_{k=1}^K \Big[\pi_k \mathcal{N}(x_n|\mu_k, \Sigma_k) \Big]^{z_{nk}},$$
 
-where the first product is over data points and the second over mixture components. $$z_{nk}$$ is a latent variable determining whether $n$-th data point belongs to $$k$$-th mixture components and the parameters are $$\theta = \{\pi_k, \mu_k, \Sigma_k\}_k$$.
+where the first product is over data points and the second over mixture components. $$z_{nk}$$ is a latent variable determining whether $$n$$-th data point belongs to $$k$$-th mixture components and the parameters are $$\theta = \{\pi_k, \mu_k, \Sigma_k\}_k$$.
 
 Will will implement our GMM as a class `GaussianMixture` with a scikit-learn-like API:
 
@@ -178,7 +178,7 @@ sns.despine()
 
 |![The dataset $$X \in \mathbb{R}^d$$ for out motivating example]({{ site.url }}/images/gmm2.png)|
 |:--:|
-|*The dataset $$X$$ with each $$x_n$$ displayed in a colour obtained from interpreting the vector $$q(z \vert x_n)$$ as an RGB triplet ($$z_{n1}$$ codes for the value of the red component, $$z_{n2}$$ for green and $$z_{n3}$$ for blue)*|
+|*The dataset $$X$$ with each $$x_n$$ displayed in a colour obtained from interpreting the vector $$q(z \vert x_n)$$ as an RGB triplet: $$z_{n1}$$ codes for the value of the red component, $$z_{n2}$$ for green and $$z_{n3}$$ for blue*|
 
 ## EM and the wake-sleep algorithm
 
