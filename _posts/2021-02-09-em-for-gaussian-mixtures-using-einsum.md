@@ -7,7 +7,7 @@ image:
   thumb: gmm1.png
 ---
 
-The goal of this blogpost is to present a concise implementation on the Gaussian Mixture Model (GMM) using einsum notation. Along the way, I will also describe the expectation-maximization (EM) algorithm.
+The goal of this blogpost is to present a concise implementation of the Gaussian Mixture Model (GMM) using einsum notation. Along the way, I will also describe the expectation-maximization (EM) algorithm.
 
 ## Einsum
 
