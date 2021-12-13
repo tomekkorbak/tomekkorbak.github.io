@@ -34,6 +34,30 @@ Before that, I studied cognitive science, philosophy and physics at the Universi
 
 <li>
 <div class="thumb">
+<a href="https://arxiv.org/abs/2112.00791">
+<img src="{{ site.url }}/images/thumbnails/cdpg4.png">
+</a>
+</div>
+
+
+<div class="text">
+<a href="https://arxiv.org/abs/2112.00791">
+<h3>Controlling conditional language models with distributional policy gradients</h3>
+</a>
+<p class="authors">Tomasz Korbak, Hady Elsahar, Germán Kruszewski, Marc Dymetman</p>
+<p class="venues">Controllable generative modelling workshop, NeurIPS 2021</p>
+
+<p class="buttons">
+
+<a href="https://arxiv.org/abs/2112.00791" target="_blank">ArXiv</a>
+
+</p>
+</div>
+</li>
+
+
+<li>
+<div class="thumb">
 <a href="https://arxiv.org/pdf/2106.04985">
 <img src="{{ site.url }}/images/thumbnails/code_comp.png">
 </a>
