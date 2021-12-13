@@ -58,20 +58,20 @@ Before that, I studied cognitive science, philosophy and physics at the Universi
 
 <li>
 <div class="thumb">
-<a href="https://arxiv.org/pdf/2106.04985">
+<a href="https://arxiv.org/abs/2106.04985">
 <img src="{{ site.url }}/images/thumbnails/code_comp.png">
 </a>
 </div>
 
 <div class="text">
-<a href="https://arxiv.org/pdf/2106.04985">
+<a href="https://arxiv.org/abs/2106.04985">
 <h3>Energy-based models for code generation under compilability constraints</h3>
 </a>
 <p class="authors">Tomasz Korbak, Hady Elsahar, Marc Dymetman, Germán Kruszewski</p>
 <p class="venues">NLP4Programming workshop, ACL 2021</p>
 
 <p class="buttons">
-<a href="https://arxiv.org/pdf/2106.04985" target="_blank">arXiv</a>
+<a href="https://arxiv.org/abs/2106.04985" target="_blank">arXiv</a>
 </p>
 </div>
 </li>
@@ -100,20 +100,20 @@ Before that, I studied cognitive science, philosophy and physics at the Universi
 
 <li>
 <div class="thumb">
-<a href="https://arxiv.org/pdf/1910.06079">
+<a href="https://arxiv.org/abs/1910.06079">
 <img src="{{ site.url }}/images/thumbnails/template.png">
 </a>
 </div>
 
 <div class="text">
-<a href="https://arxiv.org/pdf/1910.06079">
+<a href="https://arxiv.org/abs/1910.06079">
 <h3>Developmentally motivated emergence of compositional communication via template transfer</h3>
 </a>
 <p class="authors">Tomasz Korbak, Julian Zubek, Łukasz Kuciński, Piotr Miłoś, Joanna Rączaszek-Leonardi</p>
 <p class="venues">Emergent communication workshop, NeurIPS 2019</p>
 
 <p class="buttons">
-<a href="https://arxiv.org/pdf/1910.06079" target="_blank">arXiv</a>
+<a href="https://arxiv.org/abs/1910.06079" target="_blank">arXiv</a>
 <a href="https://github.com/tomekkorbak/compositional-communication-via-template-transfer" target="_blank">code</a>
 </p>
 </div>
