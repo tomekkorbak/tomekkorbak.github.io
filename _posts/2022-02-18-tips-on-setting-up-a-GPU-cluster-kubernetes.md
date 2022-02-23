@@ -50,9 +50,9 @@ Finally, your job must request GPU as a resource.
 
 ## How to monitor and debug runs?
 
-For general cluster utilisation monitoring, I use `kubectl get jobs` and sometimes `kubectl describe node`. For debugging, `kubectl logs` is nice. For monitoring the actual experiment, I just use [Weights and Viases](https://wandb.ai). 
+For general cluster utilisation monitoring, I use `kubectl get jobs` and sometimes `kubectl describe node`. For debugging, `kubectl logs` is nice. For monitoring the actual experiment, I just use [Weights and Biases](https://wandb.ai). 
 
-## How to autoscaling GPU nodes to 0
+## How to autoscale GPU nodes to 0
 
 That’s tricky because for me GPU nodes live indefinitely even after all the jobs are done. That’s probably because some `kube-system` pods get allocated there. Unfortunately, failure to scale down defeats the main purpose of setting up a virtual cluster: not having to pay for idle GPU nodes.
 
