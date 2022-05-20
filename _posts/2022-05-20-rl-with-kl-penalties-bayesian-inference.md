@@ -187,3 +187,5 @@ $$
 $$
 
 The first one is just KL-regularised RL objective $$J_\text{KL-RL}(\theta)$$ with $$\beta=1$$. The second one is proportional (up to a constant $$-\log Z$$) to negative $$\text{KL}(\pi_\theta, \pi^*_\text{KL-RL})$$, where $$\pi^\text{KL-RL}=\frac{1}{Z}a(x)\exp(r(x))$$ is the target distribution (or optimal policy for $$J_\text{KL-RL}(\theta)$$). Their equivalence proves that KL-regularised reward maximisation is equivalent to minimising divergence from $$\pi^*_\text{KL-RL}$$.
+
+*This blog post is largely based on a workshop paper with Ethan Perez and Chris Buckley. It also benefited from discussions with Hady Elsahar, Germán Kruszewski and Marc Dymetman.*
