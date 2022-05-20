@@ -173,7 +173,7 @@ $$
 $$
 
 $$
-=\mathbb{E}_{x\sim\pi_\theta} \log \Big[ \exp(r(x)) \frac{\pi_0(x)}{\pi_\theta }\Big]
+=\mathbb{E}_{x\sim\pi_\theta} \log \Big[ \exp(r(x)) \frac{\pi_0(x)}{\pi_\theta(x) }\Big]
 $$
 
 In this derivation, we first introduce a latent variable $$x$$ using the sum rule of probability (1), factorise a joint distribution (2), introduce a variational distribution $$\pi_\theta$$ over that latent variable (3), use Jensen’s inequality to obtain a bound (ELBo) (4) and, finally in (6), use the definition of $$p(\mathcal{O}=1\vert x)$$. This new bound can be alternatively expressed in two different ways:
