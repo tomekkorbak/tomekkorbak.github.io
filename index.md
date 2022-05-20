@@ -4,12 +4,35 @@ excerpt: "The personal website of Tomek Korbak"
 tags: [Tomek Korbak, tomekkorbak, Tomasz Korbak, Tomasz, Tomek, Korbak, homepage]
 share: false
 ---
-I'm a PhD student at the Department of Informatics, University of Sussex working on deep reinforcement learning and generative models with [Chris Buckley](https://scholar.google.co.uk/citations?user=nWuZ0XcAAAAJ&hl=en) and [Anil Seth](https://scholar.google.com/citations?hl=en&user=3eJCZCkAAAAJ). Currently, I'm focusing probabilistic approaches to control, such as active inference and control-as-inference, and controllable generative modelling. I recently spent time at Naver Labs Europe working on energy-based models for controllable language generation.
+I'm a PhD student at the Department of Informatics, University of Sussex working on deep reinforcement learning and generative models with [Chris Buckley](https://scholar.google.co.uk/citations?user=nWuZ0XcAAAAJ&hl=en) and [Anil Seth](https://scholar.google.com/citations?hl=en&user=3eJCZCkAAAAJ). I'm focusing on probabilistic approaches to control, such as active inference and control-as-inference, and controllable generative modelling. I spent time at Naver Labs Europe working on energy-based models for controllable language generation and am currently a visiting researcher at NYU working with [Ethan Perez](https://scholar.google.ca/citations?user=za0-taQAAAAJ&hl=en) and [Sam Bowman](https://scholar.google.com/citations?user=kV9XRxYAAAAJ&hl=en) on aligning language models with human preferences.
 
 Before that, I studied cognitive science, philosophy and physics at the University of Warsaw. While there, I worked on compositionality and communication in multi-agent systems at [Human Interactivity and Language Lab](http://hill.psych.uw.edu.pl) with [Joanna Rączaszek-Leonardi](https://scholar.google.com/citations?user=OPggSAYAAAAJ&hl=pl) and at [AwareLab](https://awarelab.gitlab.io/website/) with [Piotr Miłoś](https://scholar.google.pl/citations?user=Se68XecAAAAJ&hl=pl&oi=ao) as well as on formal models of self-organisation with [Marcin Miłkowski](https://scholar.google.com/citations?user=2UfI6q8AAAAJ&hl=en).
 
 ## Highlighted papers
 <ul class="collection">
+
+<li>
+<div class="thumb">
+<a href="https://arxiv.org/abs/2112.00791">
+<img src="{{ site.url }}/images/thumbnails/cdpg4.png">
+</a>
+</div>
+
+
+<div class="text">
+<a href="https://arxiv.org/abs/2112.00791">
+<h3>Controlling conditional language models without catastrophic forgetting</h3>
+</a>
+<p class="authors">Tomasz Korbak, Hady Elsahar, Germán Kruszewski, Marc Dymetman</p>
+<p class="venues">Accepted for ICML 2022</p>
+
+<p class="buttons">
+
+<a href="https://arxiv.org/abs/2112.00791" target="_blank">ArXiv</a>
+
+</p>
+</div>
+</li>
 
 <li>
 <div class="thumb">
@@ -31,29 +54,6 @@ Before that, I studied cognitive science, philosophy and physics at the Universi
 </div>
 </li>
 
-
-<li>
-<div class="thumb">
-<a href="https://arxiv.org/abs/2112.00791">
-<img src="{{ site.url }}/images/thumbnails/cdpg4.png">
-</a>
-</div>
-
-
-<div class="text">
-<a href="https://arxiv.org/abs/2112.00791">
-<h3>Controlling conditional language models with distributional policy gradients</h3>
-</a>
-<p class="authors">Tomasz Korbak, Hady Elsahar, Germán Kruszewski, Marc Dymetman</p>
-<p class="venues">Controllable generative modelling workshop, NeurIPS 2021</p>
-
-<p class="buttons">
-
-<a href="https://arxiv.org/abs/2112.00791" target="_blank">ArXiv</a>
-
-</p>
-</div>
-</li>
 
 
 <li>
