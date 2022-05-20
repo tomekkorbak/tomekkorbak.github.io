@@ -8,12 +8,13 @@ comments: false
 
 ## Conference and workshop papers
 1. Korbak, T., Elsahar, H., Kruszewski, G. & Dymetman, M. (2022). [Controlling conditional language models without catastrophic forgetting](https://arxiv.org/abs/2112.00791). ICML 2022.
-2. Kuciński, Ł., Korbak, T., Kołodziej, P. & Miłoś, P. (2021). [Catalytic role of noise and necessity of inductive biases in emergence of compositional communication](https://arxiv.org/abs/2111.06464). NeurIPS 2021.
-3. Korbak, T., Elsahar, H., Dymetman, M. & Kruszewski, G. [Energy-based models for code generation under compilability constraints](https://arxiv.org/pdf/2106.04985). ACL 2021 workshop on NLP for Programming.
-4. Korbak, T., Zubek, J. & Rączaszek-Leonardi, J. (2020). [Measuring non-trivial compositionality in emergent communication](https://arxiv.org/abs/2010.15058). NeurIPS 2020 workshop on Emergent Communication.
-5. Korbak, T., Zubek, J., Kuciński, Ł., Miłoś, P. & Rączaszek-Leonardi, J. (2019). [Developmentally motivated emergence of compositional communication via template transfer](https://arxiv.org/abs/1910.06079). NeurIPS 2019 workshop on Emergent Communication.
-6. Korzeniowski, R., Rolczyński, R., Sadownik, P., Korbak, T. & Możejko, M. (2019). [Exploiting Unsupervised Pre-training and Automated Feature Engineering for Low-resource Hate Speech Detection in Polish](https://arxiv.org/abs/1906.09325). *Proceedings of the PolEval 2019 Workshop*.
-7. Korbak, T. & Żak, P. (2017). [Fine-tuning Tree-LSTM for phrase-level sentiment classification on a Polish dependency treebank](https://arxiv.org/abs/1711.01985). In Z. Vetulani and P. Paroubek (eds.) Proceedings of the 8th Language & Technology Conference.
+2. Korbak, T., Perez, E. & Buckley, C. (2022). RL with KL penalties is better viewed as Bayesian inference. RLDM 2022 workshop on RL as a Model of Agency.
+3. Kuciński, Ł., Korbak, T., Kołodziej, P. & Miłoś, P. (2021). [Catalytic role of noise and necessity of inductive biases in emergence of compositional communication](https://arxiv.org/abs/2111.06464). NeurIPS 2021.
+4. Korbak, T., Elsahar, H., Dymetman, M. & Kruszewski, G. [Energy-based models for code generation under compilability constraints](https://arxiv.org/pdf/2106.04985). ACL 2021 workshop on NLP for Programming.
+5. Korbak, T., Zubek, J. & Rączaszek-Leonardi, J. (2020). [Measuring non-trivial compositionality in emergent communication](https://arxiv.org/abs/2010.15058). NeurIPS 2020 workshop on Emergent Communication.
+6. Korbak, T., Zubek, J., Kuciński, Ł., Miłoś, P. & Rączaszek-Leonardi, J. (2019). [Developmentally motivated emergence of compositional communication via template transfer](https://arxiv.org/abs/1910.06079). NeurIPS 2019 workshop on Emergent Communication.
+7. Korzeniowski, R., Rolczyński, R., Sadownik, P., Korbak, T. & Możejko, M. (2019). [Exploiting Unsupervised Pre-training and Automated Feature Engineering for Low-resource Hate Speech Detection in Polish](https://arxiv.org/abs/1906.09325). *Proceedings of the PolEval 2019 Workshop*.
+8. Korbak, T. & Żak, P. (2017). [Fine-tuning Tree-LSTM for phrase-level sentiment classification on a Polish dependency treebank](https://arxiv.org/abs/1711.01985). In Z. Vetulani and P. Paroubek (eds.) Proceedings of the 8th Language & Technology Conference.
 
 
 ## Journal papers
