@@ -13,6 +13,31 @@ Before that, I studied cognitive science, philosophy and physics at the Universi
 
 <li>
 <div class="thumb">
+<a href="https://arxiv.org/abs/2206.00761">
+<img src="{{ site.url }}/images/thumbnails/rmvsdm2.png">
+</a>
+</div>
+
+
+<div class="text">
+<a href="https://arxiv.org/abs/2206.00761">
+<h3>On reinforcement learning and distribution matching for fine-tuning language models with no catastrophic forgetting
+
+</h3>
+</a>
+<p class="authors">Tomasz Korbak, Hady Elsahar, Germán Kruszewski, Marc Dymetman</p>
+<p class="venues">NeurIPS 2022</p>
+
+<p class="buttons">
+
+<a href="https://arxiv.org/abs/2112.00791" target="_blank">ArXiv</a>
+
+</p>
+</div>
+</li>
+
+<li>
+<div class="thumb">
 <a href="https://arxiv.org/abs/2112.00791">
 <img src="{{ site.url }}/images/thumbnails/cdpg4.png">
 </a>
@@ -24,7 +49,7 @@ Before that, I studied cognitive science, philosophy and physics at the Universi
 <h3>Controlling conditional language models without catastrophic forgetting</h3>
 </a>
 <p class="authors">Tomasz Korbak, Hady Elsahar, Germán Kruszewski, Marc Dymetman</p>
-<p class="venues">Accepted for ICML 2022</p>
+<p class="venues">ICML 2022</p>
 
 <p class="buttons">
 
