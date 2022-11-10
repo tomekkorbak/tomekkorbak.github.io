@@ -9,7 +9,7 @@ comments: false
 ## Conference and workshop papers
 1. Korbak, T., Elsahar, H., Kruszewski, G. & Dymetman, M. (2022). [On reinforcement learning and distribution matching for fine-tuning language models with no catastrophic forgetting](https://arxiv.org/abs/2206.00761). NeurIPS 2022.
 2. Korbak, T., Elsahar, H., Kruszewski, G. & Dymetman, M. (2022). [Controlling conditional language models without catastrophic forgetting](https://arxiv.org/abs/2112.00791). ICML 2022.
-3. Korbak, T., Perez, E. & Buckley, C. (2022). RL with KL penalties is better viewed as Bayesian inference. RLDM 2022 workshop on RL as a Model of Agency.
+3. Korbak, T., Perez, E. & Buckley, C. (2022). [RL with KL penalties is better viewed as Bayesian inference](https://arxiv.org/abs/2205.11275). Findings in EMNLP 2022.
 4. Kuciński, Ł., Korbak, T., Kołodziej, P. & Miłoś, P. (2021). [Catalytic role of noise and necessity of inductive biases in emergence of compositional communication](https://arxiv.org/abs/2111.06464). NeurIPS 2021.
 5. Korbak, T., Elsahar, H., Dymetman, M. & Kruszewski, G. [Energy-based models for code generation under compilability constraints](https://arxiv.org/pdf/2106.04985). ACL 2021 workshop on NLP for Programming.
 6. Korbak, T., Zubek, J. & Rączaszek-Leonardi, J. (2020). [Measuring non-trivial compositionality in emergent communication](https://arxiv.org/abs/2010.15058). NeurIPS 2020 workshop on Emergent Communication.

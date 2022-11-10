@@ -59,6 +59,30 @@ Before that, I studied cognitive science, philosophy and physics at the Universi
 </div>
 </li>
 
+
+<li>
+<div class="thumb">
+<a href="https://arxiv.org/abs/2205.11275">
+<img src="{{ site.url }}/images/thumbnails/rl_kl.png">
+</a>
+</div>
+
+
+<div class="text">
+<a href="https://arxiv.org/abs/2205.11275">
+<h3>RL with KL penalties is better viewed as Bayesian inference</h3>
+</a>
+<p class="authors">Tomasz Korbak, Ethan Perez, Christopher Buckley</p>
+<p class="venues">Findings of EMNLP 2022</p>
+
+<p class="buttons">
+
+<a href="https://arxiv.org/abs/2205.11275.pdf" target="_blank">ArXiv</a>
+
+</p>
+</div>
+</li>
+
 <li>
 <div class="thumb">
 <a href="https://arxiv.org/abs/2111.06464">
