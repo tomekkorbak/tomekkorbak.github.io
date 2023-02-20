@@ -4,12 +4,62 @@ excerpt: "The personal website of Tomek Korbak"
 tags: [Tomek Korbak, tomekkorbak, Tomasz Korbak, Tomasz, Tomek, Korbak, homepage]
 share: false
 ---
-I'm a PhD student at the Department of Informatics, University of Sussex working on deep reinforcement learning and generative models with [Chris Buckley](https://scholar.google.co.uk/citations?user=nWuZ0XcAAAAJ&hl=en) and [Anil Seth](https://scholar.google.com/citations?hl=en&user=3eJCZCkAAAAJ). I'm focusing on probabilistic approaches to control, such as active inference and control-as-inference, and controllable generative modelling. I spent time at Naver Labs Europe working on energy-based models for controllable language generation and am currently a visiting researcher at NYU working with [Ethan Perez](https://scholar.google.ca/citations?user=za0-taQAAAAJ&hl=en) and [Sam Bowman](https://scholar.google.com/citations?user=kV9XRxYAAAAJ&hl=en) on aligning language models with human preferences.
+I'm a PhD student at the University of Sussex and a visiting researcher at NYU working on aligning language models with human preferences. I'm particularly interested in RL from human feedback (RLHF) and probabilistic programming with language models.  
 
-Before that, I studied cognitive science, philosophy and physics at the University of Warsaw. While there, I worked on compositionality and communication in multi-agent systems at [Human Interactivity and Language Lab](http://hill.psych.uw.edu.pl) with [Joanna Rączaszek-Leonardi](https://scholar.google.com/citations?user=OPggSAYAAAAJ&hl=pl) and at [AwareLab](https://awarelab.gitlab.io/website/) with [Piotr Miłoś](https://scholar.google.pl/citations?user=Se68XecAAAAJ&hl=pl&oi=ao) as well as on formal models of self-organisation with [Marcin Miłkowski](https://scholar.google.com/citations?user=2UfI6q8AAAAJ&hl=en).
+
+At NYU, I work with [Ethan Perez](https://scholar.google.ca/citations?user=za0-taQAAAAJ&hl=en), [Sam Bowman](https://scholar.google.com/citations?user=kV9XRxYAAAAJ&hl=en) and [Kyunghyun Cho](https://scholar.google.co.uk/citations?user=0RAmmIAAAAAJ&hl=en) while at Sussex I'm advised by [Chris Buckley](https://scholar.google.co.uk/citations?user=nWuZ0XcAAAAJ&hl=en) and [Anil Seth](https://scholar.google.com/citations?hl=en&user=3eJCZCkAAAAJ). I also spent time at Naver Labs Europe working on energy-based models for aligning language models. Before that, I studied cognitive science, philosophy and physics at the University of Warsaw and worked on compositional generalisation and emergent communication with [Joanna Rączaszek-Leonardi](https://scholar.google.com/citations?user=OPggSAYAAAAJ&hl=pl) and [Piotr Miłoś](https://scholar.google.pl/citations?user=Se68XecAAAAJ&hl=pl&oi=ao), and on Bayesian accounts of self-organisation with [Marcin Miłkowski](https://scholar.google.com/citations?user=2UfI6q8AAAAJ&hl=en).
 
 ## Highlighted papers
 <ul class="collection">
+
+
+<li>
+<div class="thumb">
+<a href="https://arxiv.org/abs/2302.08582">
+<img src="{{ site.url }}/images/thumbnails/phf2.png">
+</a>
+</div>
+
+
+<div class="text">
+<a href="https://arxiv.org/abs/2302.08582">
+<h3>Pretraining Language Models with Human Preferences
+
+
+</h3>
+</a>
+<p class="authors">Tomasz Korbak, Kejian Shi, Angelica Chen, Rasika Bhalerao, Christopher Buckley, Jason Phang, Samuel Bowman, Ethan Perez</p>
+<p class="venues"><a href="https://github.com/tomekkorbak/pretraining-with-human-feedback" target="_blank">Code</a></p>
+
+
+</div>
+</li>
+
+
+<li>
+<div class="thumb">
+<a href="https://arxiv.org/abs/2302.08582">
+<img src="{{ site.url }}/images/thumbnails/fdpg2.png">
+</a>
+</div>
+
+
+<div class="text">
+<a href="https://arxiv.org/abs/2302.08215">
+<h3>Aligning Language Models with Preferences through <i>f</i>-divergence Minimization</h3>
+</a>
+<p class="authors">Dongyoung Go, Tomasz Korbak, Germán Kruszewski, Jos Rozen, Nahyeon Ryu, Marc Dymetman
+</p>
+<p class="venues"><a href="https://github.com/naver/disco" target="_blank">Code</a></p>
+
+<p class="buttons">
+
+<a href="https://arxiv.org/abs/2302.08215" target="_blank">ArXiv</a>
+
+</p>
+</div>
+</li>
+
 
 <li>
 <div class="thumb">
@@ -27,6 +77,8 @@ Before that, I studied cognitive science, philosophy and physics at the Universi
 </a>
 <p class="authors">Tomasz Korbak, Hady Elsahar, Germán Kruszewski, Marc Dymetman</p>
 <p class="venues">NeurIPS 2022</p>
+<p class="venues"><a href="https://github.com/naver/gdc/tree/master/rm_vs_dm" target="_blank">Code</a></p>
+
 
 <p class="buttons">
 
@@ -50,6 +102,8 @@ Before that, I studied cognitive science, philosophy and physics at the Universi
 </a>
 <p class="authors">Tomasz Korbak, Hady Elsahar, Germán Kruszewski, Marc Dymetman</p>
 <p class="venues">ICML 2022</p>
+<p class="venues"><a href="https://github.com/naver/gdc/tree/master/cdpg" target="_blank">Code</a></p>
+
 
 <p class="buttons">
 
@@ -139,6 +193,8 @@ Before that, I studied cognitive science, philosophy and physics at the Universi
 </a>
 <p class="authors">Tomasz Korbak, Julian Zubek, Joanna Rączaszek-Leonardi</p>
 <p class="venues">Emergent communication workshop, NeurIPS 2020</p>
+<p class="venues"><a href="https://github.com/tomekkorbak/measuring-non-trivial-compositionality" target="_blank">Code</a></p>
+
 
 <p class="buttons">
 <a href="https://arxiv.org/abs/2010.15058" target="_blank">arXiv</a>
@@ -160,6 +216,8 @@ Before that, I studied cognitive science, philosophy and physics at the Universi
 </a>
 <p class="authors">Tomasz Korbak, Julian Zubek, Łukasz Kuciński, Piotr Miłoś, Joanna Rączaszek-Leonardi</p>
 <p class="venues">Emergent communication workshop, NeurIPS 2019</p>
+<p class="venues"><a href="https://github.com/tomekkorbak/compositional-communication-via-template-transfer" target="_blank">Code</a></p>
+
 
 <p class="buttons">
 <a href="https://arxiv.org/abs/1910.06079" target="_blank">arXiv</a>
