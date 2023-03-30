@@ -8,7 +8,9 @@ comments: false
 
 ## Conference and workshop papers
 1. Korbak, T., Shi, K., Chen, A., Bhalerao, R., Buckley, C. Phang, J., Bowman S. & Perez. E. (2023). [Pretraining Language Models with Human Preferences](https://arxiv.org/abs/2302.08582).
-2. Go, D., Korbak, T.  Rozen, J., Ryu, N., Kruszewski, G.  Dymetman, M. (2023). [Aligning Language Models with Preferences through *f*-divergence Minimization](https://arxiv.org/abs/2302.08215).
+2. Scheurer, J., Ander Campos, J., Korbak, T., Jun Shern, C., Chen, A., Cho, K., Perez, E. (2023). [Training Language Models with Language Feedback at Scale](https://arxiv.org/abs/2303.16755).
+3. Chen, A., Scheurer, J., Korbak, T., Ander Campos, J.,  Jun Shern, C., Bowman, S., Cho, K., Perez, E. (2023). [Improving Code Generation by Training with Natural Language Feedback](https://arxiv.org/abs/2303.16749).
+3. Go, D., Korbak, T.  Rozen, J., Ryu, N., Kruszewski, G.  Dymetman, M. (2023). [Aligning Language Models with Preferences through *f*-divergence Minimization](https://arxiv.org/abs/2302.08215).
 3. Korbak, T., Elsahar, H., Kruszewski, G. & Dymetman, M. (2022). [On reinforcement learning and distribution matching for fine-tuning language models with no catastrophic forgetting](https://arxiv.org/abs/2206.00761). NeurIPS 2022.
 4. Korbak, T., Elsahar, H., Kruszewski, G. & Dymetman, M. (2022). [Controlling conditional language models without catastrophic forgetting](https://arxiv.org/abs/2112.00791). ICML 2022.
 5. Korbak, T., Perez, E. & Buckley, C. (2022). [RL with KL penalties is better viewed as Bayesian inference](https://arxiv.org/abs/2205.11275). Findings in EMNLP 2022.
