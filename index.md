@@ -4,10 +4,7 @@ excerpt: "The personal website of Tomek Korbak"
 tags: [Tomek Korbak, tomekkorbak, Tomasz Korbak, Tomasz, Tomek, Korbak, homepage]
 share: false
 ---
-I'm a PhD student at the University of Sussex and a visiting researcher at NYU working on aligning language models with human preferences. I'm particularly interested in RL from human feedback (RLHF) and probabilistic programming with language models.  
-
-
-At NYU, I work with [Ethan Perez](https://scholar.google.ca/citations?user=za0-taQAAAAJ&hl=en), [Sam Bowman](https://scholar.google.com/citations?user=kV9XRxYAAAAJ&hl=en) and [Kyunghyun Cho](https://scholar.google.co.uk/citations?user=0RAmmIAAAAAJ&hl=en) while at Sussex I'm advised by [Chris Buckley](https://scholar.google.co.uk/citations?user=nWuZ0XcAAAAJ&hl=en) and [Anil Seth](https://scholar.google.com/citations?hl=en&user=3eJCZCkAAAAJ). I also spent time at Naver Labs Europe working on energy-based models for aligning language models. Before that, I studied cognitive science, philosophy and physics at the University of Warsaw and worked on compositional generalisation and emergent communication with [Joanna Rączaszek-Leonardi](https://scholar.google.com/citations?user=OPggSAYAAAAJ&hl=pl) and [Piotr Miłoś](https://scholar.google.pl/citations?user=Se68XecAAAAJ&hl=pl&oi=ao), and on Bayesian accounts of self-organisation with [Marcin Miłkowski](https://scholar.google.com/citations?user=2UfI6q8AAAAJ&hl=en).
+I'm a Member of Technical Staff at [Anthropic](https://www.anthropic.com/) working on aligning language models with human preferences. Previously, I was a PhD student at the University of Sussex with [Chris Buckley](https://scholar.google.co.uk/citations?user=nWuZ0XcAAAAJ&hl=en) and [Anil Seth](https://scholar.google.com/citations?hl=en&user=3eJCZCkAAAAJ) focusing on RL from human feedback (RLHF) and spent time as a visiting researcher at NYU working with [Ethan Perez](https://scholar.google.ca/citations?user=za0-taQAAAAJ&hl=en), [Sam Bowman](https://scholar.google.com/citations?user=kV9XRxYAAAAJ&hl=en) and [Kyunghyun Cho](https://scholar.google.co.uk/citations?user=0RAmmIAAAAAJ&hl=en). I also interned at [Naver Labs Europe](https://europe.naverlabs.com/) and [FAR AI](https://far.ai/). Before that, I studied cognitive science, philosophy and physics at the University of Warsaw and worked on compositional generalisation and emergent communication with [Joanna Rączaszek-Leonardi](https://scholar.google.com/citations?user=OPggSAYAAAAJ&hl=pl) and [Piotr Miłoś](https://scholar.google.pl/citations?user=Se68XecAAAAJ&hl=pl&oi=ao), and on Bayesian accounts of self-organisation with [Marcin Miłkowski](https://scholar.google.com/citations?user=2UfI6q8AAAAJ&hl=en).
 
 ## Highlighted papers
 
@@ -15,24 +12,116 @@ At NYU, I work with [Ethan Perez](https://scholar.google.ca/citations?user=za0-t
 <li>
 <div class="thumb">
 <a href="https://arxiv.org/abs/2302.08582">
-<img src="{{ site.url }}/images/thumbnails/phf2.png">
+<img src="{{ site.url }}/images/thumbnails/phf.jpg">
 </a>
 </div>
 
 
 <div class="text">
 <a href="https://arxiv.org/abs/2302.08582">
-<h3>Pretraining Language Models with Human Preferences
-
-
-</h3>
+<h3>Pretraining Language Models with Human Preferences</h3>
 </a>
 <p class="authors"><b>Tomasz Korbak</b>, Kejian Shi, Angelica Chen, Rasika Bhalerao, Christopher Buckley, Jason Phang, Samuel Bowman, Ethan Perez</p>
+<p class="venues">ICML 2023 (oral)</p>
 <p class="venues"><a href="https://github.com/tomekkorbak/pretraining-with-human-feedback" target="_blank">Code</a></p>
+
+</div>
+</li>
+
+
+<li>
+<div class="thumb">
+<a href="https://arxiv.org/abs/2310.13548">
+<img src="{{ site.url }}/images/thumbnails/sycophancy2.jpg">
+</a>
+</div>
+
+
+<div class="text">
+<a href="https://arxiv.org/abs/2310.13548">
+<h3>Towards Understanding Sycophancy in Language Models</h3>
+</a>
+<p class="authors">Mrinank Sharma, Meg Tong, <b>Tomasz Korbak</b>, David Duvenaud, Amanda Askell, Samuel R. Bowman, Newton Cheng, Esin Durmus, Zac Hatfield-Dodds, Scott R. Johnston, Shauna Kravec, Timothy Maxwell, Sam McCandlish, Kamal Ndousse, Oliver Rausch, Nicholas Schiefer, Da Yan, Miranda Zhang, Ethan Perez</p>
+<p class="venues"><a href="https://github.com/meg-tong/sycophancy-eval" target="_blank">Code</a></p>
+
 
 
 </div>
 </li>
+
+
+<li>
+<div class="thumb">
+<a href="https://arxiv.org/abs/2310.13011">
+<img src="{{ site.url }}/images/thumbnails/cpm.jpg">
+</a>
+</div>
+
+
+<div class="text">
+<a href="https://arxiv.org/abs/2310.13011">
+<h3>Compositional preference models for aligning LMs
+
+
+</h3>
+</a>
+<p class="authors">Dongyoung Go, <b>Tomasz Korbak</b>, Germán Kruszewski, Jos Rozen, Marc Dymetman</p>
+
+
+</div>
+</li>
+
+
+
+<li>
+<div class="thumb">
+<a href="https://arxiv.org/abs/2309.12288">
+<img src="{{ site.url }}/images/thumbnails/reversal.jpg">
+</a>
+</div>
+
+
+<div class="text">
+<a href="https://arxiv.org/abs/2309.12288">
+<h3>The Reversal Curse: LLMs trained on "A is B" fail to learn "B is A"
+
+
+</h3>
+</a>
+<p class="authors">Lukas Berglund, Meg Tong, Max Kaufmann, Mikita Balesni, Asa Cooper Stickland, <b>Tomasz Korbak</b>, Owain Evans</p>
+<p class="venues"><a href="https://github.com/lukasberglund/reversal_curse" target="_blank">Code</a></p>
+
+
+</div>
+</li>
+
+<li>
+<div class="thumb">
+<a href="https://arxiv.org/abs/2309.00667">
+<img src="{{ site.url }}/images/thumbnails/sita.jpg">
+</a>
+</div>
+
+
+<div class="text">
+<a href="https://arxiv.org/abs/2309.00667">
+<h3>Taken out of context: On measuring situational awareness in LLMs
+
+
+</h3>
+</a>
+<p class="authors">Lukas Berglund, Asa Cooper Stickland, Mikita Balesni, Max Kaufmann, Meg Tong, <b>Tomasz Korbak</b>, Daniel Kokotajlo, Owain Evans</p>
+<p class="venues"><a href="https://github.com/AsaCooperStickland/situational-awareness-evals" target="_blank">Code</a></p>
+
+
+</div>
+</li>
+
+
+
+
+
+
 
 <li>
 <div class="thumb">
@@ -103,6 +192,7 @@ At NYU, I work with [Ethan Perez](https://scholar.google.ca/citations?user=za0-t
 <p class="authors">Dongyoung Go, <b>Tomasz Korbak</b>, Germán Kruszewski, Jos Rozen, Nahyeon Ryu, Marc Dymetman
 </p>
 <p class="venues"><a href="https://github.com/naver/disco" target="_blank">Code</a></p>
+ICML 2023
 
 <p class="buttons">
 
@@ -128,7 +218,7 @@ At NYU, I work with [Ethan Perez](https://scholar.google.ca/citations?user=za0-t
 </h3>
 </a>
 <p class="authors"><b>Tomasz Korbak</b>, Hady Elsahar, Germán Kruszewski, Marc Dymetman</p>
-<p class="venues">NeurIPS 2022</p>
+<p class="venues">NeurIPS 2022 (oral)</p>
 <p class="venues"><a href="https://github.com/naver/gdc/tree/master/rm_vs_dm" target="_blank">Code</a></p>
 
 
