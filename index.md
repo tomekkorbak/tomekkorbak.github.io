@@ -191,8 +191,10 @@ I'm a Member of Technical Staff at [Anthropic](https://www.anthropic.com/) worki
 </a>
 <p class="authors">Dongyoung Go, <b>Tomasz Korbak</b>, Germán Kruszewski, Jos Rozen, Nahyeon Ryu, Marc Dymetman
 </p>
+<p class="venues">ICML 2023</p>
+
 <p class="venues"><a href="https://github.com/naver/disco" target="_blank">Code</a></p>
-ICML 2023
+
 
 <p class="buttons">
 
