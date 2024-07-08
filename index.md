@@ -4,7 +4,7 @@ excerpt: "The personal website of Tomek Korbak"
 tags: [Tomek Korbak, tomekkorbak, Tomasz Korbak, Tomasz, Tomek, Korbak, homepage]
 share: false
 ---
-I'm a Member of Technical Staff at [Anthropic](https://www.anthropic.com/) working on aligning language models with human preferences. Previously, I was a PhD student at the University of Sussex with [Chris Buckley](https://scholar.google.co.uk/citations?user=nWuZ0XcAAAAJ&hl=en) and [Anil Seth](https://scholar.google.com/citations?hl=en&user=3eJCZCkAAAAJ) focusing on RL from human feedback (RLHF) and spent time as a visiting researcher at NYU working with [Ethan Perez](https://scholar.google.ca/citations?user=za0-taQAAAAJ&hl=en), [Sam Bowman](https://scholar.google.com/citations?user=kV9XRxYAAAAJ&hl=en) and [Kyunghyun Cho](https://scholar.google.co.uk/citations?user=0RAmmIAAAAAJ&hl=en). I also interned at [Naver Labs Europe](https://europe.naverlabs.com/) and [FAR AI](https://far.ai/). Before that, I studied cognitive science, philosophy and physics at the University of Warsaw and worked on compositional generalisation and emergent communication with [Joanna Rączaszek-Leonardi](https://scholar.google.com/citations?user=OPggSAYAAAAJ&hl=pl) and [Piotr Miłoś](https://scholar.google.pl/citations?user=Se68XecAAAAJ&hl=pl&oi=ao), and on Bayesian accounts of self-organisation with [Marcin Miłkowski](https://scholar.google.com/citations?user=2UfI6q8AAAAJ&hl=en).
+I'm a Senior Research Scientist at the [UK AI Safety Institute](https://www.aisi.gov.uk) working with [Geoffrey Irving](https://scholar.google.com/citations?user=TrdtzgwAAAAJ&hl=en) on safety cases for frontier models. Previously, I was a Member of Technical Staff at [Anthropic](https://www.anthropic.com/) working on honesty. Before that, I did a PhD at the University of Sussex with [Chris Buckley](https://scholar.google.co.uk/citations?user=nWuZ0XcAAAAJ&hl=en) and [Anil Seth](https://scholar.google.com/citations?hl=en&user=3eJCZCkAAAAJ) focusing on RL from human feedback (RLHF) and spent time as a visiting researcher at NYU working with [Ethan Perez](https://scholar.google.ca/citations?user=za0-taQAAAAJ&hl=en), [Sam Bowman](https://scholar.google.com/citations?user=kV9XRxYAAAAJ&hl=en) and [Kyunghyun Cho](https://scholar.google.co.uk/citations?user=0RAmmIAAAAAJ&hl=en). I studied cognitive science, philosophy and physics at the University of Warsaw.
 
 ## Highlighted papers
 
@@ -42,6 +42,7 @@ I'm a Member of Technical Staff at [Anthropic](https://www.anthropic.com/) worki
 <h3>Towards Understanding Sycophancy in Language Models</h3>
 </a>
 <p class="authors">Mrinank Sharma, Meg Tong, <b>Tomasz Korbak</b>, David Duvenaud, Amanda Askell, Samuel R. Bowman, Newton Cheng, Esin Durmus, Zac Hatfield-Dodds, Scott R. Johnston, Shauna Kravec, Timothy Maxwell, Sam McCandlish, Kamal Ndousse, Oliver Rausch, Nicholas Schiefer, Da Yan, Miranda Zhang, Ethan Perez</p>
+<p class="venues">ICLR 2024</p>
 <p class="venues"><a href="https://github.com/meg-tong/sycophancy-eval" target="_blank">Code</a></p>
 
 
@@ -58,6 +59,9 @@ I'm a Member of Technical Staff at [Anthropic](https://www.anthropic.com/) worki
 </div>
 
 
+
+
+
 <div class="text">
 <a href="https://arxiv.org/abs/2310.13011">
 <h3>Compositional preference models for aligning LMs
@@ -66,6 +70,8 @@ I'm a Member of Technical Staff at [Anthropic](https://www.anthropic.com/) worki
 </h3>
 </a>
 <p class="authors">Dongyoung Go, <b>Tomasz Korbak</b>, Germán Kruszewski, Jos Rozen, Marc Dymetman</p>
+<p class="venues">ICLR 2024</p>
+<p class="venues"><a href="https://github.com/dongyoung-go/CPM" target="_blank">Code</a></p>
 
 
 </div>
@@ -89,6 +95,7 @@ I'm a Member of Technical Staff at [Anthropic](https://www.anthropic.com/) worki
 </h3>
 </a>
 <p class="authors">Lukas Berglund, Meg Tong, Max Kaufmann, Mikita Balesni, Asa Cooper Stickland, <b>Tomasz Korbak</b>, Owain Evans</p>
+<p class="venues">ICLR 2024</p>
 <p class="venues"><a href="https://github.com/lukasberglund/reversal_curse" target="_blank">Code</a></p>
 
 
@@ -97,8 +104,25 @@ I'm a Member of Technical Staff at [Anthropic](https://www.anthropic.com/) worki
 
 <li>
 <div class="thumb">
-<a href="https://arxiv.org/abs/2309.00667">
-<img src="{{ site.url }}/images/thumbnails/sita.jpg">
+<a href="https://www-cdn.anthropic.com/af5633c94ed2beb282f6a53c595eb437e8e7b630/Many%5C_Shot%5C_Jailbreaking%5C_%5C_2024%5C_04%5C_02%5C_0936.pdf">
+<img src="{{ site.url }}/images/thumbnails/msj.png">
+</a>
+</div>
+
+
+<div class="text">
+<a href="https://www-cdn.anthropic.com/af5633c94ed2beb282f6a53c595eb437e8e7b630/Many%5C_Shot%5C_Jailbreaking%5C_%5C_2024%5C_04%5C_02%5C_0936.pdf">
+<h3>Many-shot jailbreaking</h3>
+</a>
+<p class="authors">Cem Anil, Esin Durmus, Mrinank Sharma, Joe Benton, Sandipan Kundu, Joshua Batson, Nina Rimsky, Meg Tong, Jesse Mu, Daniel Ford, Francesco Mosconi, Rajashree Agrawal, Rylan Schaeffer, Naomi Bashkansky, Samuel Svenningsen, Mike Lambert, Ansh Radhakrishnan, Carson Denison, Evan J Hubinger, Yuntao Bai, Trenton Bricken, Timothy Maxwell, Nicholas Schiefer, Jamie Sully, Alex Tamkin, Tamera Lanham, Karina Nguyen, <b>Tomasz Korbak</b>, Jared Kaplan, Deep Ganguli, Samuel R Bowman, Ethan Perez, Roger Grosse, David Duvenaud</p>
+
+</div>
+</li>
+
+<li>
+<div class="thumb">
+<a href="https://arxiv.org/abs/2310.13011">
+<img src="{{ site.url }}/images/thumbnails/cpm.jpg">
 </a>
 </div>
 
