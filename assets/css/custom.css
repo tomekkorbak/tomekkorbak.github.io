@@ -1,0 +1,62 @@
+/* Custom CSS to align navigation to the right */
+.navigation-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 68em;
+  margin: 0 auto;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.site-name {
+  flex: 0 0 auto;
+  margin-right: auto;
+}
+
+.top-navigation {
+  text-align: right;
+  flex: 0 0 auto;
+  margin-left: auto;
+  padding-right: 0;
+}
+
+.top-navigation ul.nav-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 0;
+}
+
+.top-navigation ul.nav-menu li {
+  margin-left: 25px;
+  margin-right: 0;
+}
+
+.top-navigation ul.nav-menu li:last-child {
+  padding-right: 0;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .navigation-wrapper {
+    display: block;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  
+  .top-navigation ul.nav-menu {
+    display: block;
+    padding-right: 0;
+  }
+  
+  .top-navigation {
+    float: none !important;
+    text-align: left;
+    padding-right: 0;
+  }
+  
+  .top-navigation ul.nav-menu li {
+    margin-left: 0;
+  }
+} 
