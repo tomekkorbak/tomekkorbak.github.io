@@ -11,6 +11,117 @@ I'm a Member of Technical Staff at [OpenAI](https://openai.com) working on monit
 <ul class="collection">
 <li>
 <div class="thumb">
+<a href="https://arxiv.org/abs/2507.11473">
+<img src="{{ site.url }}/images/thumbnails/cot-monitorability.png">
+</a>
+</div>
+
+
+<div class="text">
+<a href="https://arxiv.org/abs/2507.11473">
+<h3>Chain of thought monitorability: A new and fragile opportunity for AI safety</h3>
+</a>
+<p class="authors"><b>Tomek Korbak*</b>, Mikita Balesni*, Elizabeth Barnes, Yoshua Bengio, Joe Benton, Joseph Bloom, Mark Chen, Alan Cooney, Allan Dafoe, Anca Dragan, and others, Bowen Baker, Rohin Shah, Vlad Mikulik</p>
+
+</div>
+</li>
+
+
+<li>
+<div class="thumb">
+<a href="https://arxiv.org/abs/2512.13526">
+<img src="{{ site.url }}/images/thumbnails/Screenshot 2026-01-18 at 21.26.28.png">
+</a>
+</div>
+
+
+<div class="text">
+<a href="https://arxiv.org/abs/2512.13526">
+<h3>Async Control: Stress-testing Asynchronous Control Measures for LLM Agents</h3>
+</a>
+<p class="authors">Asa Cooper Stickland, Jan Michelfeit, Arathi Mani, Charlie Griffin, Ollie Matthews, <b>Tomek Korbak</b>, Rogan Inglis, Oliver Makins, Alan Cooney</p>
+<p class="venues"><a href="https://github.com/UKGovernmentBEIS/async-control" target="_blank">Code</a></p>
+
+</div>
+</li>
+
+
+<li>
+<div class="thumb">
+<a href="https://arxiv.org/abs/2508.06601">
+<img src="{{ site.url }}/images/thumbnails/deep-ignorance.png">
+</a>
+</div>
+
+
+<div class="text">
+<a href="https://arxiv.org/abs/2508.06601">
+<h3>Deep Ignorance: Filtering Pretraining Data Builds Tamper-Resistant Safeguards into Open-Weight LLMs</h3>
+</a>
+<p class="authors">Kyle O'Brien, Stephen Casper, Quentin Anthony, <b>Tomek Korbak</b>, Robert Kirk, Xander Davies, Ishan Mishra, Geoffrey Irving, Yarin Gal, Stella Biderman</p>
+<p class="venues"><a href="https://deepignorance.ai/" target="_blank">Website</a></p>
+
+</div>
+</li>
+
+
+<li>
+<div class="thumb">
+<a href="https://arxiv.org/abs/2502.14828">
+<img src="{{ site.url }}/images/thumbnails/Screenshot 2026-01-18 at 21.22.28.png">
+</a>
+</div>
+
+
+<div class="text">
+<a href="https://arxiv.org/abs/2502.14828">
+<h3>Fundamental Limitations in Pointwise Defences of LLM Finetuning APIs</h3>
+</a>
+<p class="authors">Xander Davies, Eric Winsor, Alexandra Souly, <b>Tomek Korbak</b>, Robert Kirk, Christian Schroeder de Witt, Yarin Gal</p>
+
+</div>
+</li>
+
+
+<li>
+<div class="thumb">
+<a href="https://arxiv.org/abs/2411.16353">
+<img src="{{ site.url }}/images/thumbnails/two-hop-reasoning.png">
+</a>
+</div>
+
+
+<div class="text">
+<a href="https://arxiv.org/abs/2411.16353">
+<h3>Lessons from studying two-hop latent reasoning</h3>
+</a>
+<p class="authors">Mikita Balesni*, <b>Tomek Korbak*</b>, Owain Evans</p>
+<p class="venues"><a href="https://github.com/mbalesni/synthetic-two-hop/" target="_blank">Code</a></p>
+
+</div>
+</li>
+
+
+<li>
+<div class="thumb">
+<a href="https://arxiv.org/abs/2504.05259">
+<img src="{{ site.url }}/images/thumbnails/control-measures.png">
+</a>
+</div>
+
+
+<div class="text">
+<a href="https://arxiv.org/abs/2504.05259">
+<h3>How to evaluate control measures for LLM agents? A trajectory from today to superintelligence</h3>
+</a>
+<p class="authors"><b>Tomek Korbak</b>, Mikita Balesni, Buck Shlegeris, Geoffrey Irving</p>
+
+</div>
+</li>
+
+
+<li>
+<div class="thumb">
 <a href="https://arxiv.org/abs/2501.17315">
 <img src="{{ site.url }}/images/thumbnails/safety_case.png">
 </a>
