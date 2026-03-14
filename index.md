@@ -29,6 +29,44 @@ I'm a Member of Technical Staff at [OpenAI](https://openai.com) working on monit
 
 <li>
 <div class="thumb">
+<a href="https://arxiv.org/abs/2603.05706">
+<img src="{{ site.url }}/images/thumbnails/reasoning-cot-control.png">
+</a>
+</div>
+
+
+<div class="text">
+<a href="https://arxiv.org/abs/2603.05706">
+<h3>Reasoning Models Struggle to Control their Chains of Thought</h3>
+</a>
+<p class="authors">Chen Yueh-Han, Robert McCarthy, Bruce W. Lee, He He, Ian Kivlichan, Bowen Baker, Micah Carroll, <b>Tomek Korbak</b></p>
+<p class="venues"><a href="https://github.com/YuehHanChen/CoTControl" target="_blank">Code</a></p>
+
+</div>
+</li>
+
+
+<li>
+<div class="thumb">
+<a href="https://arxiv.org/abs/2602.22303">
+<img src="{{ site.url }}/images/thumbnails/self-report-misbehavior.png">
+</a>
+</div>
+
+
+<div class="text">
+<a href="https://arxiv.org/abs/2602.22303">
+<h3>Training Agents to Self-Report Misbehavior</h3>
+</a>
+<p class="authors">Bruce W. Lee, Chen Yueh-Han, <b>Tomek Korbak</b></p>
+<p class="venues"><a href="https://github.com/brucewlee/self-incrimination" target="_blank">Code</a></p>
+
+</div>
+</li>
+
+
+<li>
+<div class="thumb">
 <a href="https://arxiv.org/abs/2512.13526">
 <img src="{{ site.url }}/images/thumbnails/Screenshot 2026-01-18 at 21.26.28.png">
 </a>
