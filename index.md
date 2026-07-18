@@ -29,6 +29,24 @@ I'm a Member of Technical Staff at [OpenAI](https://openai.com) working on monit
 
 <li>
 <div class="thumb">
+<a href="https://arxiv.org/abs/2607.07184">
+<img src="{{ site.url }}/images/thumbnails/deployment-simulation.png">
+</a>
+</div>
+
+
+<div class="text">
+<a href="https://arxiv.org/abs/2607.07184">
+<h3>Predicting LLM Safety Before Release by Simulating Deployment</h3>
+</a>
+<p class="authors">Marcus Williams, Hannah Sheahan, Cameron Raymond, <b>Tomek Korbak</b>, Deng Pan, Peilin Yang, Leon Maksin, Ningyi Xie, Phillip Guo, Ian Kivlichan, Micah Carroll</p>
+
+</div>
+</li>
+
+
+<li>
+<div class="thumb">
 <a href="https://arxiv.org/abs/2603.05706">
 <img src="{{ site.url }}/images/thumbnails/reasoning-cot-control.png">
 </a>
